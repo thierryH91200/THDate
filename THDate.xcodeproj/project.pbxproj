@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		03411C5623EEF62900D87273 /* THDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03411C5423EEF62900D87273 /* THDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03411C6323EEF67F00D87273 /* TFDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03411C5C23EEF67F00D87273 /* TFDatePickerCell.m */; };
+		03411C6423EEF67F00D87273 /* TFDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 03411C5D23EEF67F00D87273 /* TFDatePickerCell.h */; };
+		03411C6523EEF67F00D87273 /* TFDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03411C5E23EEF67F00D87273 /* TFDatePicker.m */; };
+		03411C6623EEF67F00D87273 /* TFDatePickerPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03411C5F23EEF67F00D87273 /* TFDatePickerPopoverController.m */; };
+		03411C6723EEF67F00D87273 /* TFDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 03411C6023EEF67F00D87273 /* TFDatePicker.h */; };
+		03411C6823EEF67F00D87273 /* TFDatePickerPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03411C6123EEF67F00D87273 /* TFDatePickerPopoverController.h */; };
+		03411C6923EEF67F00D87273 /* TFDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03411C6223EEF67F00D87273 /* TFDatePicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03411C5123EEF62900D87273 /* THDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = THDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03411C5423EEF62900D87273 /* THDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THDate.h; sourceTree = "<group>"; };
 		03411C5523EEF62900D87273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03411C5C23EEF67F00D87273 /* TFDatePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDatePickerCell.m; sourceTree = "<group>"; };
+		03411C5D23EEF67F00D87273 /* TFDatePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDatePickerCell.h; sourceTree = "<group>"; };
+		03411C5E23EEF67F00D87273 /* TFDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDatePicker.m; sourceTree = "<group>"; };
+		03411C5F23EEF67F00D87273 /* TFDatePickerPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDatePickerPopoverController.m; sourceTree = "<group>"; };
+		03411C6023EEF67F00D87273 /* TFDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDatePicker.h; sourceTree = "<group>"; };
+		03411C6123EEF67F00D87273 /* TFDatePickerPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDatePickerPopoverController.h; sourceTree = "<group>"; };
+		03411C6223EEF67F00D87273 /* TFDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFDatePicker.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,13 @@
 		03411C5323EEF62900D87273 /* THDate */ = {
 			isa = PBXGroup;
 			children = (
+				03411C6023EEF67F00D87273 /* TFDatePicker.h */,
+				03411C5E23EEF67F00D87273 /* TFDatePicker.m */,
+				03411C6223EEF67F00D87273 /* TFDatePicker.xib */,
+				03411C5D23EEF67F00D87273 /* TFDatePickerCell.h */,
+				03411C5C23EEF67F00D87273 /* TFDatePickerCell.m */,
+				03411C6123EEF67F00D87273 /* TFDatePickerPopoverController.h */,
+				03411C5F23EEF67F00D87273 /* TFDatePickerPopoverController.m */,
 				03411C5423EEF62900D87273 /* THDate.h */,
 				03411C5523EEF62900D87273 /* Info.plist */,
 			);
@@ -59,6 +80,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03411C6723EEF67F00D87273 /* TFDatePicker.h in Headers */,
+				03411C6423EEF67F00D87273 /* TFDatePickerCell.h in Headers */,
+				03411C6823EEF67F00D87273 /* TFDatePickerPopoverController.h in Headers */,
 				03411C5623EEF62900D87273 /* THDate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03411C6923EEF67F00D87273 /* TFDatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03411C6623EEF67F00D87273 /* TFDatePickerPopoverController.m in Sources */,
+				03411C6323EEF67F00D87273 /* TFDatePickerCell.m in Sources */,
+				03411C6523EEF67F00D87273 /* TFDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

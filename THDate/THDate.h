@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char THDateVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <THDate/PublicHeader.h>
 
+#import <THDate/TFDatePicker.h>
+#import <THDate/TFDatePickerCell.h>
+#import <THDate/TFDatePickerPopoverController.h>
+
 
